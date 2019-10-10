@@ -4,10 +4,10 @@ from tweepy import Stream
 from tweepy import OAuthHandler
 
 
-access_token = "1178113359448813568-gnf6WQiHOAJUx4dVE7XC1IDmp40iYZ"
-access_token_secret = "L5m1TqRM6cXhd6iaALd7JVQEZqaBa4HLKp5mI0RjIyaTQ"
-consumer_key = "zyGOlLDusbggBDDbGiWLuvg9N"
-consumer_secret = "SHL6oz9p7UlRMCtYE0XDHS5IgVmjShto386wggNaLpARXn3ese"
+access_token = "hidden"
+access_token_secret = "hidden"
+consumer_key = "hidden"
+consumer_secret = "hidden"
 
 class KafkaListener(StreamListener):
     def on_data(self, data):
