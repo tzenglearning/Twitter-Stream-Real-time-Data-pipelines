@@ -12,11 +12,10 @@ import requests
 import requests_oauthlib
 import json
 
-# Replace the values below with yours Access Token
-ACCESS_TOKEN = "1178113359448813568-gnf6WQiHOAJUx4dVE7XC1IDmp40iYZ"
-ACCESS_SECRET = "L5m1TqRM6cXhd6iaALd7JVQEZqaBa4HLKp5mI0RjIyaTQ"
-CONSUMER_KEY = "zyGOlLDusbggBDDbGiWLuvg9N"
-CONSUMER_SECRET = "SHL6oz9p7UlRMCtYE0XDHS5IgVmjShto386wggNaLpARXn3ese"
+ACCESS_TOKEN = "hidden"
+ACCESS_SECRET = "hidden"
+CONSUMER_KEY = "hidden"
+CONSUMER_SECRET = "hidden"
 my_auth = requests_oauthlib.OAuth1(CONSUMER_KEY, CONSUMER_SECRET,ACCESS_TOKEN, ACCESS_SECRET)
 
 def getTweets():
